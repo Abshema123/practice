@@ -1,0 +1,103 @@
+body{
+    margin-top: 60px;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.header-style{
+    display: flex;
+    justify-content: space-between;
+}
+.style-p{
+    width: 30%;
+    height: 300px;
+}
+header img{
+    width: 45%;
+    height: 450px;
+    border-radius: 10px;
+}
+p{
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 1.1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+     background-color: darkgreen;
+     border-radius: 100px;
+     padding: 15px 30px;
+}
+h1{
+    font-size: 44px;
+    margin-bottom: 32px;
+    letter-spacing: -1px;
+    line-height: 1.05;
+}
+.features-icon{
+    width: 32px;
+    height: 32px;
+    stroke: #087f5b;
+    margin-bottom: 24px;
+}
+.section-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+section{
+    margin-top: 90px;
+}
+.status-style{
+    font-weight: 500;
+    font-size: 22px;
+}
+.status-title{
+    line-height: 30px;
+    font-size: 18px;
+}
+.related-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    height: 90%;
+}
+.test-box{
+    background-color: #087f5b;
+    padding: 20px;
+    border-radius: 15px;
+}
+.test-box img{
+    border-radius: 15px;
+}
+.btn-box{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+}
+.quote-style{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.chair-icon{
+    width: 30px;
+}
+.fa-regular-fa-clock{
+    width: 30px;
+}
+.fa-solid-fa-earth-americas{
+    width: 30px;
+}
+.fa-solid fa-cube{
+    width: 30px; 
+}
+

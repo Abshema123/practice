@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    border-top: 10px solid #1098ad;
+    color: #444;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+header{
+    background-color: #f7f7f7;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: #1098ad;
+}
+a{
+    color: #1098ad;
+    text-decoration: none;
+    font-size: 18px;
+}
+.web-blog{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.section{
+    color: #1098ad;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+h1{
+    color: #1098ad;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 26px;
+}
+.related-post{
+    width: 300px;
+    height: 400px;
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    margin-top: 40px;
+}
+.related-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+
+.related-list {
+    list-style: none;
+    font-size: 10px;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+button{
+    font-size: 26px;
+    padding: 20px 30px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+footer{
+    margin-bottom: 10px;
+}
+h2{
+    color: #1098ad;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#subtitle::after{
+content:"top";
+background-color: yellow;
+color: black;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 3px;
+font-size: 16px;
+position: relative;
+top: -20px;
+left: 60px;
+text-transform: uppercase;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.image-style{
+    display: flex;
+    position: relative;
+}
+.design-p{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.related-style{
+    display: flex;
+    line-height: 15px;
+    height: 100px;
+}
+.sub-related{
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.related-image{
+    margin-top: 15px;
+}
+p{
+    font-size: 15px;
+    line-height: 15px;
+}
